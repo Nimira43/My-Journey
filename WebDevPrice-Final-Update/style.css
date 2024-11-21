@@ -26,6 +26,7 @@ header {
   color: var(--light);
   text-align: center;
   padding: 10px 0;
+  
 }
 
 nav ul {
@@ -63,6 +64,8 @@ nav ul li a:hover {
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  border-top: 1px solid var(--orange);
+  border-bottom: 1px solid var(--orange);
 }
 
 .hero-heading {
