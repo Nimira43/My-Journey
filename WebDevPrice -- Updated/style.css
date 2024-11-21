@@ -50,10 +50,17 @@ nav ul li a:hover {
   color: var(--orange);
 }
 
-.section-1, .section-2, .section-3 {
-  padding: 20px;
-  max-width: 960px;
-  margin: 0 auto;
+.section-1, 
+.section-2, 
+.section-3, 
+.section-4 {
+  padding: 20px; 
+  max-width: 960px; 
+  margin: 0 auto; 
+}
+
+.heading {
+  text-align: center;
 }
 
 .section-3 .video-container {
@@ -71,6 +78,41 @@ nav ul li a:hover {
 .section-3 iframe {
   max-width: 100%;
   height: auto;
+}
+
+.section-4 form { 
+  display: flex; 
+  flex-direction: 
+  column; gap: 10px; 
+  max-width: 400px; 
+  margin: 0 auto; 
+} 
+
+.section-4 label { 
+  font-weight: bold; 
+  margin-bottom: 5px; 
+} 
+
+.section-4 input { 
+  padding: 8px; 
+  border: 1px 
+  solid var(--dark); 
+  border-radius: 4px; 
+} 
+
+.section-4 button { 
+  padding: 10px; 
+  background-color: var(--dark); 
+  border: none; 
+  color: var(--light); 
+  font-weight: bold; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  margin-bottom: 20px;
+} 
+
+.section-4 button:hover { 
+  background-color: var(--orange); 
 }
 
 @media (max-width: 600px) {
