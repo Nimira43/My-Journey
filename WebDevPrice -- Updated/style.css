@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(to left, #99ffff, #88ff4d);
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+}
+
+.container {
+  background-color: orange;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    text-shadow: 5px 5px lightgrey;
+}
+
+h2 {
+    color: crimson;
+    text-shadow: 5px 5px lightgreen;
+}
+
+h3 {
+    color: green;
+      text-shadow: 5px 5px yellow;
+}
