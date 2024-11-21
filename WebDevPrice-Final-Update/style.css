@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=League+Spartan:wght@100..900&display=swap');
 
 :root {
-  --dark: #333;
+  --dark: #111;
   --light: #fffaf0;
   --orange: #ff4500;
 }
@@ -18,6 +18,7 @@ body {
   font-size: 35px;
   letter-spacing: 2px;
   text-shadow: 1px 1px 1px var(--orange);
+  margin-top: 10px;
 }
 
 header {
@@ -51,9 +52,7 @@ nav ul li a:hover {
 }
 
 .section-1, 
-.section-2, 
-.section-3, 
-.section-4 {
+.section-2 {
   padding: 20px; 
   max-width: 960px; 
   margin: 0 auto; 
@@ -123,26 +122,31 @@ nav ul li a:hover {
 
 .heading {
   text-align: center;
+  font-size: 30px;
 }
 
-.section-3 .video-container {
+.paragraph {
+  font-size: 22px;
+}
+
+.section-1 .video-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.section-3 .video-item {
+.section-1 .video-item {
   flex: 1 1 calc(50% - 20px);
   text-align: center;
 }
 
-.section-3 iframe {
+.section-1 iframe {
   max-width: 100%;
   height: auto;
 }
 
-.section-4 form { 
+.section-2 form { 
   display: flex; 
   flex-direction: 
   column; gap: 10px; 
@@ -150,19 +154,19 @@ nav ul li a:hover {
   margin: 0 auto; 
 } 
 
-.section-4 label { 
+.section-2 label { 
   font-weight: bold; 
   margin-bottom: 5px; 
 } 
 
-.section-4 input { 
+.section-2 input { 
   padding: 8px; 
   border: 1px 
   solid var(--dark); 
   border-radius: 4px; 
 } 
 
-.section-4 button { 
+.section-2 button { 
   padding: 10px; 
   background-color: var(--dark); 
   border: 1px solid var(--dark);
@@ -175,7 +179,7 @@ nav ul li a:hover {
   margin-bottom: 20px;
 } 
 
-.section-4 button:hover { 
+.section-2 button:hover { 
   background-color: transparent;
   color: var(--dark); 
 }
@@ -230,10 +234,10 @@ footer h4 {
     align-items: center; 
     gap: 10px; 
   } 
-  .section-3 .video-item { 
+  .section-1 .video-item { 
     flex: 1 1 100%; 
   } 
-  .section-4 
+  .section-2 
   form { 
     padding: 0 10px;
   }
