@@ -165,16 +165,19 @@ nav ul li a:hover {
 .section-4 button { 
   padding: 10px; 
   background-color: var(--dark); 
-  border: none; 
+  border: 1px solid var(--dark);
+  border-radius: 5px; 
   color: var(--light); 
   font-weight: bold; 
+  text-transform: uppercase;
   cursor: pointer; 
-  transition: background-color 0.3s ease; 
+  transition: all 0.3s ease-in; 
   margin-bottom: 20px;
 } 
 
 .section-4 button:hover { 
-  background-color: var(--orange); 
+  background-color: transparent;
+  color: var(--dark); 
 }
 
 footer { 
@@ -211,8 +214,27 @@ footer h4 {
   color: var(--orange); 
 }
 
-@media (max-width: 600px) {
-  .section-3 .video-item {
-    flex: 1 1 100%;
+@media (max-width: 600px) { 
+  body { 
+    padding: 0 10px; 
+  } 
+  header, footer { 
+    padding: 15px 0; 
+  } 
+  .hero-heading { 
+    font-size: 24px; 
+    padding: 15px; 
+  } 
+  .hero-nav ul { 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+  } 
+  .section-3 .video-item { 
+    flex: 1 1 100%; 
+  } 
+  .section-4 
+  form { 
+    padding: 0 10px;
   }
 }
